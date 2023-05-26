@@ -3,6 +3,10 @@
   "displayName": "Ledger Syntax",
   "description": "Syntax highlighting for ledger files.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dashed/ledger-vscode.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
