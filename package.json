@@ -1,8 +1,9 @@
 {
-  "name": "ledger",
+  "name": "ledger-syntax",
   "displayName": "Ledger Syntax",
   "description": "Syntax highlighting for ledger files.",
   "version": "0.0.1",
+  "publisher": "albertoleal",
   "repository": {
     "type": "git",
     "url": "https://github.com/dashed/ledger-vscode.git"
