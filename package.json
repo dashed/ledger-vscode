@@ -10,16 +10,27 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "ledger",
-      "aliases": ["Ledger", "ledger"],
-      "extensions": [".ledger"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "ledger",
-      "scopeName": "source.ledger",
-      "path": "./syntaxes/ledger.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "ledger",
+        "aliases": [
+          "Ledger",
+          "ledger"
+        ],
+        "extensions": [
+          ".ledger",
+          ".ldg",
+          ".ldgr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ledger",
+        "scopeName": "source.ledger",
+        "path": "./syntaxes/ledger.tmLanguage.json"
+      }
+    ]
   }
 }
